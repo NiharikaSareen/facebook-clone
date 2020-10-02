@@ -1,0 +1,115 @@
+.register{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.register__container{
+	width: 612px;
+	height: 60vh;
+	display: flex;
+	padding: 20px;
+	background-color: #fff;
+	flex-direction: column;
+}
+.register__container > h1{
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.register__container > h3{
+	font-size: 18px;
+	color: black;
+	font-weight: 300;
+	margin-bottom: 20px;
+	margin-left: 107px;
+}
+
+.register__container > form > center > input{
+	height: 50px;
+	margin: 5px;
+	background-color: #fff;
+	width: 396px;
+	border: 0.5px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	padding-left: 20px;
+	color: #1d2129;
+	line-height: 16px;
+	font-size: 16px;
+	vertical-align: middle;
+} 
+
+.register__container > form > center > input::-webkit-input-placeholder{
+	height: 22px;
+	padding-right: 40px;
+	color: rgb(170,170,170);
+}
+
+.register__button{
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	white-space: nowrap;
+	position: relative;
+	font-weight: bold;
+	background-color: #5e994b;
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	vertical-align: middle;
+	color: #fff;
+	width: 22vw;
+	transition: all 0.2s linear;
+}
+.register__button:hover{
+background-color: #36a420;
+}
+.register__name{
+	width: 180px !important;
+}
+
+.register__gender{
+	display: flex;
+	color: rgb(144,148,156);
+	font-size: 18px;
+	margin-left: 110px;
+}
+
+.register__container > form > .register__radiocontainer{
+	margin-left: 110px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.register__container > form > .register__radiocontainer > label{
+	margin-top: 10px 30px 10px 6px;
+	font-size: 18px;
+
+}
+
+.register__policy{
+	font-size: 11px;
+	font-weight: 400;
+	max-width: 396px;
+	margin-left: 110px;
+	margin-bottom: 20px;
+	line-height: 15px;
+	color: #777;
+}
+
+.register__policy span{
+	color: rgb(56,148,207);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+.login{
+	background-color: #e9ebee;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.login__logo{
+	height: 9rem;
+	margin-top: 2rem;
+}
+.login__container{
+	width: 30vw;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0,0,0,.1), 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.login__container >h3{
+	margin-top:20px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.login__container > form > center> input{
+	height: 50px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	width: 20vw;
+	border: 0.5px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	padding-left: 20px;
+	color: #1d2129;
+	line-height: 16px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.login__button{
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	white-space: nowrap;
+	position: relative;
+	font-weight: bold;
+	background-color: #1877f2;
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	vertical-align: middle;
+	color: #fff;
+	width: 22vw;
+	transition: all 0.2s linear;
+}
+.login__button:hover{
+	background-color: #166fe5;
+}
+.login__register{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+.login__register > h5,
+.login__register .login__registerButton{
+	color: #1877f2 !important;
+	cursor: pointer;
+	font-weight: 500;
+}
+.login__register > h5:hover,
+.login__register .login__registerButton:hover{
+	text-decoration: underline;
+}
+
+.login__register .dot{
+	color: #1877f2 ;
+	margin: 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+	.login__logo{
+		height: 5rem;
+		margin-top: 2rem;
+	}
+	.login__container{
+		width: 75vw;
+		height: 50vh;
+	}
+	.login__container > form > center> input{
+		width: 80%;
+	}
+	.login__button{
+		width: 88%;
+	}
+	.login__register{
+		flex-direction: column;
+	}
+	.dot{
+		display: none;
+	}
+	.login__register > h5{
+		margin-bottom: 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

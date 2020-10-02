@@ -1,0 +1,17 @@
+.app{
+	background-color:  #e9ebee;
+	min-height: 100vh;
+}
+
+.app__page{
+	display: flex;
+}
+
+.app__posts{
+	display: flex;
+	justify-content: center;
+}
+
+.MuiSvgIcon-root{
+	fill: white !important;
+}

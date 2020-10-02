@@ -1,0 +1,40 @@
+.sidebarRight{
+	flex: 1;
+	margin: 30px 0 0 30px;
+}
+
+.sidebarRight__languages{
+	background-color: white;
+	border: 1px solid rgba(199,199,199, 0.63);
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 80px;
+}
+
+.sidebarRight__languages p{
+	font-size: 13px;
+	color: #4765a0;
+}
+
+.sidebarRight__languages p:hover{
+	cursor: pointer;
+}
+
+.sidebarRight__selected{
+	color: gray !important;
+}
+
+.sidebarRight__policies{
+	color: gray;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.copyright{
+	color: #444;
+	font-size: 13px;
+}

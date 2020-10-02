@@ -1,0 +1,255 @@
+.imageupload{
+	display: flex;
+	padding-bottom: 0;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 500px;
+}
+
+.imageupload__container{
+	display: flex;
+	flex-direction: column;
+	border-radius: 3px;
+	background-color: #fff;
+	width: 100%;
+}
+.imageupload__secondSection{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+}
+.imageupload__secondSectionModal{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.imageupload__commentAssign > hr{
+	color: gray;
+	height: 1px;
+	opacity: 0.3;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.imageupload__avatar{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.imageupload__secondSection > input{
+	background-color: transparent;
+	border: none;
+	width:100%;
+	outline: none;
+}
+
+.imageupload__secondSectionModal > input::-webkit-input-placeholder{
+	font-weight: 100;
+	font-size: 16px;
+	color: #c3c3c3;
+}
+.imageupload__secondSectionModal > input{
+	font-weight: 100;
+	font-size: 24px;
+	color: #000;
+	width: 83%;
+	border: none;
+	outline: none;
+}
+.imageupload__firstSection{
+	background-color: #f5f6f7;
+	margin-bottom: 10px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.imageupload__firstSectionModal{
+	display: flex;
+	flex-direction: row;
+	background-color: #f5f6f7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.imageupload__firstSection > h3{
+	padding: 10px;
+	font-weight: 600;
+	font-size: 12px;
+}
+.imageupload__feedModal{
+	width: 100%;
+	border-top: 1px solid rbga(185,185,185,0.55);
+}
+
+.imageupload__newsFeed{
+	height: 23px;
+	margin-left: 9px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+.imageupload__colorwrap1{
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	margin-left: 43px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 50px;
+}
+.imageupload__firstSectionModal > h3{
+	padding: 10px;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.imageupload .imageupload__conatiner > hr{
+	height: 1px;
+	background-color: #e9ebee;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+	opacity: 0.3;
+}
+
+.imageupload__imageupload{
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	margin-left: 10px;
+	background-color: #f5f6f7;
+	border-radius: 20px;
+	width: 100px;
+	margin: 10px 10px 10px 30px;
+}
+
+.imageupload__imageuploadModal{
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	margin-left: 10px;
+	background-color: #f5f6f7;
+	border-radius: 20px;
+	width: 100px;
+	margin: 10px 10px 10px 30px;
+}
+
+.imageupload__imageupload >h3{
+	font-weight: 700;
+	font-size: 14px;
+	margin-left: 7px;
+	margin-top: 10px;
+}
+
+.imageupload__imageupload .imageupload__gallery{
+	height: 25px;
+	margin-left: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.imageupload__imageuploadModal > h3{
+	font-weight: 700;
+	font-size: 14px;
+	margin-left: 7px;
+	margin-top: 10px;
+}
+
+.imageupload__imageuploadModal .imageupload__gallery{
+	height: 25px;
+	margin-left: 13px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.imageupload__more{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	background-color: #f5f6f7;
+	border-radius: 20px;
+	width: 50px;
+	height: 35px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.imageupload__more .imageupload__dots{
+	height: 20px;
+	margin-left: 15px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+.uploadimage__option{
+	display: flex;
+	flex-direction: row;
+}
+
+.container{
+	display: flex;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-radius: 40px;
+}
+
+.imageupload__submitButton{
+	width: 95%;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	margin-bottom: 10px !important;
+	background-color: #4267b2 !important;
+	color: #fff !important;
+	border-radius: 0px !important;
+	height: 30px !important;
+}
+
+.imageupload__feedModal > h3{
+	font-size: 13px;
+	display: flex;
+	margin-left: 100px;
+	margin-top: -30px;
+}
+
+.imageFile{
+	display: none;
+}
+.imageText{
+	margin-bottom: 10px;
+	color: rgba(255,255,255,0);
+	font-size: 10px;
+}
+.imageText.show{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: rgb(180,180,180);
+	font-size: 12px;
+	display: block;
+}
+.progress{
+	width: 90%;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	display: none;
+}
+.progress.show{
+	width: 90%;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
